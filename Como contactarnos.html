@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <HTML LANG="EN">
+
 <head>
 	<!--cabecera de la pagina-->
 	<meta charset="UTF-8">
@@ -10,109 +11,115 @@
 	<title>Cómo contactarnos</title>
 	<link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-<header id="cabecera">
-<img src="imágenes/logo.png" alt="escudo del instituto" id="escudo">
-<img src="imágenes/logoatu.png" alt="escudo del instituto ATU" ID="ATU">
-<h1>Instituto de <br>Taekwon-do</h1>
-</header>
-<nav id="menu">
-	<ul>
-	<li><a href="index.html"  target="_blank">Nosotros</a></li>
-	<li><a href="Historia del Taekwon-do.html" target="blank">Historia del Taekwon-do</a></li>
-	<li><a href="Escuela Koguryo.html" target="blank">Escuela Koguryo</a></li>
-	<li><a href="#" >Eventos deportivos</a>
+	<header id="cabecera">
+		<img src="imágenes/logo.png" alt="escudo del instituto" id="escudo">
+		<img src="imágenes/logoatu.png" alt="escudo del instituto ATU" ID="ATU">
+		<h1>Instituto de <br>Taekwon-do</h1>
+	</header>
+	<nav id="menu">
 		<ul>
-		<li><a href="Circuito de formas.html" target="blank">Circuito de formas</a></li>
-		<li><a href="Copa Koguryo.html" target="blank">Copa Koguryo</a></li>
-		<li><a href="Mundial Taekwon-do.html" target="_blank">Mundial Taekwon-do ITF</a></li>
-		</ul></li>
-	<li><a href="Que aprendemos.html" target="blank">Qué aprendemos?</a></li>
-	<li><a href="Como contactarnos.html" target="blank">Cómo contactarnos</a></li>
-	</ul>
-</nav>
+			<li><a href="index.html" target="_blank">Nosotros</a></li>
+			<li><a href="Historia del Taekwon-do.html" target="blank">Historia del Taekwon-do</a></li>
+			<li><a href="Escuela Koguryo.html" target="blank">Escuela Koguryo</a></li>
+			<li><a href="#">Eventos deportivos</a>
+				<ul>
+					<li><a href="Circuito de formas.html" target="blank">Circuito de formas</a></li>
+					<li><a href="Copa Koguryo.html" target="blank">Copa Koguryo</a></li>
+					<li><a href="Mundial Taekwon-do.html" target="_blank">Mundial Taekwon-do ITF</a></li>
+				</ul>
+			</li>
+			<li><a href="Que aprendemos.html" target="blank">Qué aprendemos?</a></li>
+			<li><a href="Como contactarnos.html" target="blank">Cómo contactarnos</a></li>
+		</ul>
+	</nav>
 
-<section id="contenedor2">
-<br>
-<div class="form-fondo">
-<h2>Como contactarnos</h2> 
-<p class="form-description">
-         Si te interesa inscribirte o probar una clase gratis para ver si te gustaria entrenar con nosotros, completa el siguiente formulario con tus datos para que sepamos de ti</p>
-<form action="mailto:sebaojda@gmail.com" method="post" enctype="text/plain">
-	<div class="form-header">
-		<img src="imágenes/perfil.jpeg" alt=""class="form-image">
-		<h2 class="form-title">Formulario de inscripcion</h2>
-		
-	</div>
-	
-		<label for="Name" class="label">Nombre:</label>
-		<input type="text" id="Name" class="input" name="Nombre" required placeholder="Nombre">
-	<br>
-		<label for="Ape" class="label">Apellido:</label>
-		<input type="text" id="Ape" class="input" name="Apellido" required  placeholder="Apellido">
-	<br>
-		<label for="Gen" class="label">Genero</label>
-			<select id="Gen">
-				<option value="">-selecciona una opción-</option>
-				<option value="Masculino">Masculino</option>
-				<option value="Femenino">Femenino</option>
-				<option value="Prefiero no decirlo">Prefiero no decirlo</option>
-			</select>
-	<br>
-		<label for="phone" class="label">Número de telefono (Opcional)</label>
-		<input type="text" name="phone" id="phone" class="input" />
-	<br>
-		<label for="fecha" class="label">Fecha de nacimiento</label>
-		<input type="date" name="fecha" id="fecha" class="input"required />
-	<br>
-		<label for="dni" class="label">DNI</label>
-		<input type="text" name="dni" id="dni" class="input" />
-	<br>
-			<label for="localidad" class="label">Localidad</label>
-			<select id="localidad" name="localidad" class="input">
-				<option value="">-- Seleccioná --</option>
-				<option value="Morón">Morón</option>
-				<option value="Castelar">Castelar</option>
-				<option value="Haedo">Haedo</option>
-				<option value="El Palomar">El Palomar</option>
-				<option value="Ituzaingó">Ituzaingó</option>
-				<option value="Hurlingham">Hurlingham</option>
-				<option value="Villa Tesei">Villa Tesei</option>
-				<option value="William Morris">William Morris</option>
-				<option value="Ramos Mejía">Ramos Mejía</option>
-				<option value="Haedo (Matanza)">Haedo (Matanza)</option>
-			</select>
-	<br>
-		<label for="impedimentos" class="label">¿Qué te impide hacer Taekwon-Do?</label>
-		<textarea id="impedimentos" class="input" name="impedimentos" required></textarea>
-	<br>
-		<label for="condición" class="label">Tienes alguna condición física de la que tengamos que estar informados?</label>
-		<textarea id="condición" class="input" name="condición"></textarea>
-	<br>
-		    <input type="checkbox" id="consentimiento" class="input" />
-			<label for="consentimiento" class="label">Doy mi consentimiento para contactarme</label>
-	<br>
+	<section id="contenedor2">
+		<br>
+		<div class="form-fondo">
+			<h2>Como contactarnos</h2>
+			<p class="form-description">
+				Si te interesa inscribirte o probar una clase gratis para ver si te gustaria entrenar con nosotros,
+				completa el siguiente formulario con tus datos para que sepamos de ti</p>
+			<form action="mailto:sebaojda@gmail.com" method="post" enctype="text/plain">
+				<div class="form-header">
+					<img src="imágenes/perfil.jpeg" alt="" class="form-image">
+					<h2 class="form-title">Formulario de inscripcion</h2>
 
-		<label class="label">¿Cómo calificarias nuestra pagina?</label>
-			<div class="puntaje">
-				<input type="radio"id="star5" name="puntaje"value="5"required />
-				<label for="star5" title="5 stars">★</label>
-				<input type="radio"id="star4"name="puntaje"value="4"/>
-				<label for="star4" title="4 stars">★</label>
-				<input type="radio"id="star3"name="puntaje"value="3"/>
-				<label for="star3" title="3 stars">★</label>
-				<input type="radio"id="star2" name="puntaje"value="2"/>
-				<label for="star2" title="2 stars">★</label>
-				<input type="radio"id="star1"name="puntaje" value="1"/>
-				<label for="star1" title="1 star">★</label>
-			</div>
-			<small>Para enviar el formulario te dirijira a tu correo electronico</small>
-		<input type="submit" value="Enviar" class="boton">
-		<input type="reset" value="Borrar" class="boton">
-	</form>
-</div>
-</section>
-<footer id="pie">
-<p>Pagina web Koguryo Jeju</p>
-</footer>
+				</div>
+
+				<label for="Name" class="label">Nombre:</label>
+				<input type="text" id="Name" class="input" name="Nombre" required placeholder="Nombre">
+				<br>
+				<label for="Ape" class="label">Apellido:</label>
+				<input type="text" id="Ape" class="input" name="Apellido" required placeholder="Apellido">
+				<br>
+				<label for="Gen" class="label">Genero</label>
+				<select id="Gen">
+					<option value="">-selecciona una opción-</option>
+					<option value="Masculino">Masculino</option>
+					<option value="Femenino">Femenino</option>
+					<option value="Prefiero no decirlo">Prefiero no decirlo</option>
+				</select>
+				<br>
+				<label for="phone" class="label">Número de telefono (Opcional)</label>
+				<input type="text" name="phone" id="phone" class="input" />
+				<br>
+				<label for="fecha" class="label">Fecha de nacimiento</label>
+				<input type="date" name="fecha" id="fecha" class="input" required />
+				<br>
+				<label for="dni" class="label">DNI</label>
+				<input type="text" name="dni" id="dni" class="input" />
+				<br>
+				<label for="localidad" class="label">Localidad</label>
+				<select id="localidad" name="localidad" class="input">
+					<option value="">-- Seleccioná --</option>
+					<option value="Morón">Morón</option>
+					<option value="Castelar">Castelar</option>
+					<option value="Haedo">Haedo</option>
+					<option value="El Palomar">El Palomar</option>
+					<option value="Ituzaingó">Ituzaingó</option>
+					<option value="Hurlingham">Hurlingham</option>
+					<option value="Villa Tesei">Villa Tesei</option>
+					<option value="William Morris">William Morris</option>
+					<option value="Ramos Mejía">Ramos Mejía</option>
+					<option value="Haedo (Matanza)">Haedo (Matanza)</option>
+				</select>
+				<br>
+				<label for="impedimentos" class="label">¿Qué te impide hacer Taekwon-Do?</label>
+				<textarea id="impedimentos" class="input" name="impedimentos" required></textarea>
+				<br>
+				<label for="condición" class="label">Tienes alguna condición física de la que tengamos que estar
+					informados?</label>
+				<textarea id="condición" class="input" name="condición"></textarea>
+				<br>
+				<input type="checkbox" id="consentimiento" class="input" />
+				<label for="consentimiento" class="label">Doy mi consentimiento para contactarme</label>
+				<br>
+
+				<label class="label">¿Cómo calificarias nuestra pagina?</label>
+				<div class="puntaje">
+					<input type="radio" id="star5" name="puntaje" value="5" required />
+					<label for="star5" title="5 stars">★</label>
+					<input type="radio" id="star4" name="puntaje" value="4" />
+					<label for="star4" title="4 stars">★</label>
+					<input type="radio" id="star3" name="puntaje" value="3" />
+					<label for="star3" title="3 stars">★</label>
+					<input type="radio" id="star2" name="puntaje" value="2" />
+					<label for="star2" title="2 stars">★</label>
+					<input type="radio" id="star1" name="puntaje" value="1" />
+					<label for="star1" title="1 star">★</label>
+				</div>
+				<small>Para enviar el formulario te dirijira a tu correo electronico</small>
+				<input type="submit" value="Enviar" class="boton">
+				<input type="reset" value="Borrar" class="boton">
+			</form>
+		</div>
+	</section>
+	<section><a class="instagram" href="https://www.instagram.com/taekwondosantiagotello" target="_blank"><img
+				src="imágenes/ig.png" alt="Instagram del profesor Santiago Tello"></a></section>
+	<footer id="pie">
+		<p>Pagina web Koguryo Jeju</p>
+	</footer>
 </body>
