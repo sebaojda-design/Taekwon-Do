@@ -48,6 +48,8 @@ clear:both;
  /*parrafo dentro del footer*/
  #pie p { color: white; font-size: 15px;}
  
+.instagram img{width: 8%; position:sticky;float:right; bottom:0;}
+
 /*estilos para las tablas: ancho de la tabla*/
 
 #centrar-tabla{display:flex; justify-content:center;}
