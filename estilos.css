@@ -103,7 +103,7 @@ ol, .formas{margin-left:30px;}
         url('imágenes/mural2.jpg')100% 100%; /* capa 1 */
     width: 100%;
 	height:300px;}
-.Texto5 img{ width:400px; float:left}
+.Texto5 img{ width:600px; float:left}
 
 /*estilos para el contenedor del carrucel de fotos*/
 #imagenes {
