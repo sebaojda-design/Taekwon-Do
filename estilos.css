@@ -9,9 +9,9 @@
 #cabecera h1{font-family:Impact,fantasy; color:black;text-overflow: ellipsis;
   text-shadow: 4px 4px 6px rgb(255, 0, 0) ; font-size:75px;line-height: 1}
   
-#escudo{position:absolute;z-index:1; right:150px; top: 5px; eight:200px; width:200px}
+#escudo{position:absolute;z-index:1; right:150px; top: 5px; height:200px; width:200px}
 
-#KOGURYO{position:absolute;z-index:1; left:150px; top: 5px; eight:200px; width:200px}
+#KOGURYO{position:absolute;z-index:1; left:150px; top: 5px; height:180px; width:200px}
 
 /*estilos para el cuerpo*/
 body{background-color:Black; line-height:1.6; height:100%}
@@ -335,4 +335,131 @@ transform:rotateY(-180deg);}
   width: 4px; }
 .datos::scrollbar-track {
   background-color:red;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+    #contenedor{
+        margin:10px;
+    }
+
+    #cabecera{
+        padding:15px 10px;
+    }
+
+    #cabecera h1{
+        font-size:35px;
+        margin-top:25px;
+        margin-bottom:25px;
+    }
+
+    #escudo{
+        width:100px;
+        height:auto;
+        right:10px;
+        top:25px;
+    }
+
+    #KOGURYO{
+        width:100px;
+        height:auto;
+        left:10px;
+        top:25px;
+    }
+
+    #menu ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        padding:0;
+    }
+
+    #menu ul li{
+        width:auto;
+    }
+
+    #menu ul li a{
+        padding:6px;
+        font-size:14px;
+    }
+
+    .multifondo{
+        height:250px;
+        background-size:contain;
+    }
+
+    .Instructor1,
+    .Instructor2{
+        overflow:auto;
+        margin-bottom:30px;
+    }
+
+    .Instructor1 img{
+        float:left;
+        width:100px;
+        height:auto;
+        margin:0 15px 10px 0;
+    }
+
+    .Instructor2 img{
+        float:right;
+        width:100px;
+        height:auto;
+        margin:0 0 10px 15px;
+    }
+
+    .Instructor1 p,
+    .Instructor2 p{
+        clear:none;
+    }
+
+.tarjetas{
+    margin:0;
+    justify-content:center;
+}
+
+.tarjeta{
+    width:95%;
+    max-width:350px;
+    height:auto;
+    margin:20px 0;
+    transform:none;
+}
+
+.tarjeta:hover{
+    transform:none;
+}
+
+.tarjeta .img-box{
+    width:100%;
+    height:250px;
+}
+
+.img-box img{
+    object-fit:contain;
+}
+
+.tarjeta:hover .img-box{
+    transform:none;
+}
+
+.img-box img:nth-child(2){
+    display:none;
+}
+
+.datos{
+    position:relative;
+    left:0;
+    top:0;
+    height:auto;
+    overflow:visible;
+    padding:10px;
+    margin-top:10px;
+}
+
 }
