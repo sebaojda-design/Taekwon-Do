@@ -393,6 +393,9 @@ transform:rotateY(-180deg);}
         background-size:contain;
     }
 
+
+
+    
     .Instructor1,
     .Instructor2{
         overflow:auto;
@@ -418,48 +421,36 @@ transform:rotateY(-180deg);}
         clear:none;
     }
 
+
+
+
+
 .tarjetas{
     margin:0;
-    justify-content:center;
 }
 
 .tarjeta{
-    width:95%;
-    max-width:350px;
-    height:auto;
-    margin:20px 0;
-    transform:none;
+    width:240px;
+    height:320px;
+    margin:20px auto;
+}
+
+.datos{
+    left:10px;
+    width:220px;
+    font-size:14px;
 }
 
 .tarjeta:hover{
-    transform:none;
-}
-
-.tarjeta .img-box{
-    width:100%;
-    height:250px;
+    transform:translateX(30%);
+    z-index:10;
 }
 
 .img-box img{
     object-fit:contain;
 }
 
-.tarjeta:hover .img-box{
-    transform:none;
-}
 
-.img-box img:nth-child(2){
-    display:none;
-}
 
-.datos{
-    position:relative;
-    left:0;
-    top:0;
-    height:auto;
-    overflow:visible;
-    padding:10px;
-    margin-top:10px;
-}
 
 }
