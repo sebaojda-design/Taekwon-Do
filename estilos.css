@@ -256,8 +256,9 @@ iframe, video{height:100vh;width:150%;}
       height: 100%;
       object-fit: cover;/* Ajusta la foto sin deformarla */
       opacity: 0;/* Por defecto, invisibles */
-      animation: fade 9s infinite;/* Animación en bucle */
+      animation: fade 12s infinite;/* Animación en bucle */
     }
+
 /*El truco es usar nth-child para darle diferentes tiempos de inicio a cada imagen, así no aparecen todas al mismo tiempo:*/
     /* Primera imagen */
     .slideshow img:nth-child(1) {
@@ -277,10 +278,15 @@ iframe, video{height:100vh;width:150%;}
     }
 
     @keyframes fade {
-      0%, 100% { opacity: 0; }/* Al inicio y al final invisible */
-      10%, 40% { opacity: 1; }/* Entre el 10% y 40% del tiempo se ve */
-      60%, 90% { opacity: 0; } /* Luego vuelve a desaparecer */
-    }
+    0%   { opacity: 0; }
+    8%   { opacity: 1; }
+    25%  { opacity: 1; }
+    33%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+/* Al inicio y al final invisible */
+/* Entre el 10% y 40% del tiempo se ve */
+/* Luego vuelve a desaparecer */
 	
 /*estilos para divs*/
 .koguryo1 img{width:200px; float:left;margin-left:10px}
@@ -449,6 +455,91 @@ transform:rotateY(-180deg);}
 .img-box img{
     object-fit:contain;
 }
+
+
+
+
+.Texto1 p,
+.Texto3 p{
+    columns:1;
+}
+
+.Texto2 img{
+    float:none;
+    display:block;
+    width:100%;
+    max-width:350px;
+    height:auto;
+    margin:10px auto;
+}
+
+.Texto5 img{
+    float:none;
+    display:block;
+    width:100%;
+    max-width:350px;
+    height:auto;
+    margin:10px auto;
+}
+
+.multifondo2{
+    height:200px;
+    background-size:contain;
+}
+
+.centrado img{
+    width:100%;
+    max-width:350px;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+
+
+
+.slideshow{
+    height:250px;
+}
+
+.slideshow img{
+    object-fit:contain;
+}
+
+
+
+.koguryo1 img{
+    width:120px;
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+.koguryo2 img{
+    width:180px;
+    height:auto;
+    float:right;
+    margin:0 0 10px 10px;
+}
+
+.koguryo3 img{
+    width:180px;
+    height:auto;
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+
+
+
+.Glosario{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+}
+
+
+
+
 
 
 
