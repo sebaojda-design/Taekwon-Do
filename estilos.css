@@ -362,11 +362,11 @@ transform:rotateY(-180deg);}
     }
 
     #escudo{
-    width:98px;
-    height:auto;
-    right:6px;
-    top:28px;
-}
+        width:98px;
+        height:auto;
+        right:6px;
+        top:28px;
+    }
 
     #KOGURYO{
         width:100px;
