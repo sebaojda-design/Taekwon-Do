@@ -364,7 +364,7 @@ transform:rotateY(-180deg);}
     #escudo{
         width:100px;
         height:auto;
-        right:10px;
+        right:-10px;
         top:25px;
     }
 
