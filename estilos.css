@@ -345,9 +345,6 @@ transform:rotateY(-180deg);}
 
 
 
-
-
-
 @media (max-width: 768px){
 
     #contenedor{
@@ -398,9 +395,6 @@ transform:rotateY(-180deg);}
         background-size:contain;
     }
 
-
-
-    
     .Instructor1,
     .Instructor2{
         overflow:auto;
@@ -426,174 +420,144 @@ transform:rotateY(-180deg);}
         clear:none;
     }
 
+    .tarjetas{
+        margin:0;
+    }
 
+    .tarjeta{
+        width:240px;
+        height:320px;
+        margin:20px auto;
+    }
 
+    .datos{
+        left:10px;
+        width:220px;
+        font-size:14px;
+    }
 
+    .tarjeta:hover{
+        transform:translateX(30%);
+        z-index:10;
+    }
 
-.tarjetas{
-    margin:0;
-}
+    .img-box img{
+        object-fit:contain;
+    }
 
-.tarjeta{
-    width:240px;
-    height:320px;
-    margin:20px auto;
-}
+    .Texto1 p,
+    .Texto3 p{
+        columns:1;
+    }
 
-.datos{
-    left:10px;
-    width:220px;
-    font-size:14px;
-}
+    .Texto2 img{
+        float:none;
+        display:block;
+        width:100%;
+        max-width:350px;
+        height:auto;
+        margin:10px auto;
+    }
 
-.tarjeta:hover{
-    transform:translateX(30%);
-    z-index:10;
-}
+    .Texto5 img{
+        float:none;
+        display:block;
+        width:100%;
+        max-width:350px;
+        height:auto;
+        margin:10px auto;
+    }
 
-.img-box img{
-    object-fit:contain;
-}
+    .multifondo2{
+        height:200px;
+        background-size:contain;
+    }
 
+    .centrado img{
+        width:100%;
+        max-width:350px;
+        height:auto;
+        display:block;
+        margin:auto;
+    }
 
+    .slideshow{
+        height:250px;
+    }
 
+    .slideshow img{
+        object-fit:contain;
+    }
 
-.Texto1 p,
-.Texto3 p{
-    columns:1;
-}
+    .koguryo1 img{
+        width:120px;
+        float:left;
+        margin:0 10px 10px 0;
+    }
 
-.Texto2 img{
-    float:none;
-    display:block;
-    width:100%;
-    max-width:350px;
-    height:auto;
-    margin:10px auto;
-}
+    .koguryo2 img{
+        width:180px;
+        height:auto;
+        float:right;
+        margin:0 0 10px 10px;
+    }
 
-.Texto5 img{
-    float:none;
-    display:block;
-    width:100%;
-    max-width:350px;
-    height:auto;
-    margin:10px auto;
-}
+    .koguryo3 img{
+        width:180px;
+        height:auto;
+        float:left;
+        margin:0 10px 10px 0;
+    }
 
-.multifondo2{
-    height:200px;
-    background-size:contain;
-}
-
-.centrado img{
-    width:100%;
-    max-width:350px;
-    height:auto;
-    display:block;
-    margin:auto;
-}
-
-
-
-.slideshow{
-    height:250px;
-}
-
-.slideshow img{
-    object-fit:contain;
-}
-
-
-
-.koguryo1 img{
-    width:120px;
-    float:left;
-    margin:0 10px 10px 0;
-}
-
-.koguryo2 img{
-    width:180px;
-    height:auto;
-    float:right;
-    margin:0 0 10px 10px;
-}
-
-.koguryo3 img{
-    width:180px;
-    height:auto;
-    float:left;
-    margin:0 10px 10px 0;
-}
-
-
-
-
-.Glosario{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-    text-align:center;
-}
-
-
-
-
-
-@media (max-width: 768px){
+    .Glosario{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        text-align:center;
+    }
 
     .puntaje{
         justify-content:center;
     }
 
     .puntaje label{
-    font-size:4rem;
+        font-size:4rem;
     }
-
-}
-
-
-
-
-
-@media (max-width: 768px){
-
-    #contenedor img{
+    
+    .circuito{
         width:100%;
         height:auto;
         display:block;
         margin:10px auto;
     }
 
-}
+    #imagenes{
+        width:100%;
+    }
 
+    .slider__images{
+        height:40vh;
+    }
 
+    .slider img{
+        width:100%;
+        height:100%;
+        object-fit:contain;
+    }
 
+    .slider__pic{
+        width:1700%;
+    }
 
-#imagenes{
-    width:100%;
-}
-.slider__images{
-    height:40vh;
-}
-.slider img{
-    width:100%;
-    height:100%;
-    object-fit:contain;
-}
-.slider__pic{
-    width:1700%;
-}
+    iframe,
+    video{
+        width:100%;
+        height:500px;
+    }
 
-iframe,
-video{
-    width:100%;
-    height:500px;
-}
-
-.video-horizontal{
-    width:100%;
-    height:250px;
-}
+    .video-horizontal{
+        width:100%;
+        height:250px;
+    }
 
 }
